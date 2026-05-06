@@ -1,7 +1,7 @@
 """
-MD INDUSTRIES
-Developer: M.DHANESVARAN
-Batman-themed local IDE for the portable Python subset compiler.
+
+Developer: SRIRAM .G
+IDE for the portable Python subset compiler.
 """
 
 from __future__ import annotations
@@ -15,12 +15,10 @@ from .compiler import CompileError, ExecutionError, compile_source, execute_sour
 
 
 ROOT = Path(__file__).resolve().parent.parent
-DEVELOPER_NAME = "M.DHANESVARAN"
-COMPANY_NAME = "MD INDUSTRIES"
-CONTACT_EMAIL = "dhanesvarankumaran2006@gmail.com"
-GITHUB_URL = "https://github.com/DHANESVARAN"
-WEBSITE_URL = "https://dhanesvarankumaran.wixsite.com/dhanesvaran"
-LINKEDIN_URL = "https://www.linkedin.com/in/dhanesvaran-m-774ab426b/"
+DEVELOPER_NAME = "SRIRAM.G"
+COMPANY_NAME = ""
+CONTACT_EMAIL = "sriramg4470@gmail.com"
+
 DEFAULT_SOURCE = """x = 10
 y = 20
 x = x + y * 2
